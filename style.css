@@ -14,7 +14,7 @@ body {
       #01080E 90%);
   padding: 7vh 8vw 5vh;
   font-family: 'Inter', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 button {
@@ -58,7 +58,7 @@ input[type="number"] {
   background-size: auto 40%;
 
   position: relative;
-  background-position: left bottom -40px;
+  background-position: left bottom -2.5rem;
 }
 
 .grafismo-azul {
@@ -203,7 +203,7 @@ input[type="number"] {
 
 .carrinho__titulo {
   color: var(--Light-Blue, #1875E8);
-  font-family: Inter;
+  font-family: 'Inter';
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 600;
