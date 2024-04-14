@@ -225,7 +225,7 @@ input[type="number"] {
 }
 
 .divisoria {
-  width: 24rem;
+  width: 87%;
   height: 0.0625rem;
   background: #000;
 }
@@ -237,5 +237,22 @@ input[type="number"] {
 }
 
 .adicionar-produto {
-  padding-bottom: 180px;
+  padding-bottom: 11.25rem;
+}
+
+@media screen and (max-width: 990px){
+
+  .conteudo-principal{
+    background-image: none;
+  } 
+
+  .grafismo-azul{
+    background-image: none;
+  }
+  
+  .produto-input{
+    background: none;
+  }
+
+
 }
