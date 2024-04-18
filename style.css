@@ -156,6 +156,7 @@ input[type="number"] {
 .botao-form {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 13rem;
@@ -250,8 +251,8 @@ input[type="number"] {
     background-image: none;
   }
   
-  .produto-input{
-    background: none;
+  .botao-form{
+    display: grid;
   }
 
 
