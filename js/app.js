@@ -30,8 +30,14 @@ function adicionar(){
 
 function limpar(){
 
+  let listaProdutos = document.getElementById('lista-produtos');
+
+  if(total === 0){
+    alert('O carrinho está vazio, você não tem nada para retirar!');
+  } else {
     total = 0;
-    document.getElementById('lista-produtos').innerHTML = '';
+    listaProdutos.innerHTML = '';
     document.getElementById('valor-total').textContent = 'R$ 0';
+  }
 
 }
