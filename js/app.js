@@ -21,7 +21,7 @@ function adicionar(){
       let campoTotal = document.getElementById('valor-total');
       campoTotal.textContent = `R$ ${total}`;
 
-      document.getElementById('quantidade').value = 0;
+      document.getElementById('quantidade').value = "";
 
     } else {
       alert("Por favor, informe a quantidade!");
